@@ -4964,8 +4964,18 @@ MonoBehaviour:
   speed: 1000
   strafeSpeed: 1
   jumpForce: 20000
+  hips: {fileID: 7515465106457437407}
+  leftUpLeg: {fileID: 5533882506006360319}
+  leftLeg: {fileID: 5554277640255928538}
+  rightUpLeg: {fileID: 3630901780283313761}
+  rightLeg: {fileID: 3119746480646648848}
+  spine1: {fileID: 8639844980182293206}
+  rightArm: {fileID: 7302139659634129044}
+  rightForeArm: {fileID: 4961301887458578306}
+  head: {fileID: 3940474459918012354}
+  leftArm: {fileID: 3969047685967948274}
+  leftForeArm: {fileID: 5873862640841240481}
   rb: {fileID: 7515465106457437405}
-  playerCon: {fileID: 0}
 --- !u!143 &7515465106457437410
 CharacterController:
   m_ObjectHideFlags: 0
@@ -4977,8 +4987,8 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 1.9
-  m_Radius: 0.4
+  m_Height: 2
+  m_Radius: 0.3
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
