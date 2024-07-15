@@ -55,6 +55,8 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision collision){
-        isGrounded = true;
+        if (collision.gameObject.tag == "Floor"){
+           isGrounded = true;
+        }
     }
 }
