@@ -19,5 +19,17 @@ public class controllAnimator : MonoBehaviour
         }if(Input.GetKeyUp("w")){
             animator.SetBool("Walking", false);
         }
+
+        if(Input.GetMouseButtonDown(0)){
+            animator.SetBool("RightHand", true);
+        }if(Input.GetMouseButtonUp(0)){
+            animator.SetBool("RightHand", false);
+        }
+
+        if(Input.GetMouseButtonDown(1)){
+            animator.SetBool("LeftHand", true);
+        }if(Input.GetMouseButtonUp(1)){
+            animator.SetBool("LeftHand", false);
+        }
     }
 }
