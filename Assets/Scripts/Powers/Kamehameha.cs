@@ -24,7 +24,7 @@ public class Kamehameha : MonoBehaviour
             canFire = true;
         }
 
-        if(Input.GetMouseButtonDown(0) && canFire == true){
+        if(Input.GetMouseButton(0) && canFire == true){
             beam.SetActive(true);
             rb.AddForce(-rb.transform.forward * knockback);
         }
